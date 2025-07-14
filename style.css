@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+header{
+    padding: 30px 0;
+    box-shadow: 0px 4px 8.7px 0px #00000040;
+    border: 1px solid #BCAAAA
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 64px;
+    align-items: center;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: 700px;
+    color: #BCAAAA;
+    padding-bottom: 20px;
+}
+nav ul li a:hover{
+    color: #EF400F;
+    border-bottom: 3px solid #EF400F;
+}
+.header__right{
+    display: flex;
+    align-content: center;
+    gap: 20px;
+}
+.btn{
+    padding: 16px 30px;
+    background-color: white;
+    border-radius: 20px;
+    border: 3px solid #EF400F;
+    color: #EF400F;
+    font-size: 24px;
+}
+main{
+    background-color: #f5f5f5;
+    padding: 50px 0;
+}
+.hero__top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero__top div{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.hero__top div i{
+    font-size: 30px;
+    color: #0D0D5B;
+}
+.hero__top h2{
+    color: #0D0D5B;
+    font-size: 30px;
+}
+input{
+    width: 386px;
+    height: 63px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    padding: 20px;
+    font-size: 18px;
+}
+.click__btn{
+    padding: 15px 32px;
+    color: white;
+    border-radius: 20px;
+    font-size: 24px;
+    background-color: #0D0D5B;
+}
+.hero__top h3{
+    font-size: 32px;
+    color: #EF400F;
+}
+.cards__box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.card{
+    width: 290px;
+    height: 290px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0px 4px 13.3px 0px #00000040;
+   text-align: center;
+   padding: 44px;
+}
+.card h4,p{
+    margin: 10px 0;
+}
+.card p i{
+    color: #EF400F;
+}
